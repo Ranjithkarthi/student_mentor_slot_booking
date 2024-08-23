@@ -9,8 +9,8 @@ This web application allows students to book mentorship sessions with experts in
 
 ## Features
 
-- **Student Registration & Login**: Secure authentication for students.
 - **Mentor Selection**: Browse and choose mentors based on their expertise.
+- **Payment Details**: Review and confirm payment information.
 - **Time Slot Booking**: Select from available time slots for mentorship.
 - **Payment Processing**: handling for booked sessions.
 
