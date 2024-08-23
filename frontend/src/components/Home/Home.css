@@ -1,0 +1,88 @@
+#body_header{
+	width:auto;
+	margin:0px auto;
+	text-align:center;
+	font-size:25px;
+}
+form {
+  max-width: 694px;
+  min-width: 40vw;
+  margin: 10px auto;
+  padding: 40px 40px;
+  background-image: linear-gradient(to left, #fff, #f0f0dbab);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+
+input, select {
+  background: #fff;
+  box-shadow: none;
+  border: 0;
+  border-bottom: 1px solid #928c0896;
+  font-size: 16px;
+  height: auto;
+  margin: auto;
+  outline: 0;
+  padding: 8px;
+  padding-left: 0;
+  width: 100%;
+  background-color: transparent;
+  color: black;
+  margin-bottom: 30px;
+  outline: none;
+}
+
+.react-datepicker-wrapper{
+    display: block;
+}
+
+
+.submit-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: 100%;           
+
+}
+
+.submit-btn-container button{
+  background-color: #24a0ed;
+  color: #e8eeef;
+  border: none;
+  margin-top: 12px;
+  border-radius: 18px;
+  width: 180px;
+  padding: 10px; 
+}
+
+
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.price {
+    font-weight: bold;
+}
+
+h3 span{
+    font-weight: bolder;
+    color: #24a0ed;
+}
+
+.price span{
+    font-weight: bolder;
+    color: #24a0ed;
+}

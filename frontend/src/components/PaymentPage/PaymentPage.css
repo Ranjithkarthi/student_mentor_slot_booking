@@ -1,0 +1,110 @@
+.overall-payment-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.payment-detail-card-container{
+    width: 40vw;
+    background-image: linear-gradient(to left, #fff, #f0f0dbab);
+    padding: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    border: none;
+}
+
+.payment-detail-card-container p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: 100%; 
+}
+
+.payment-detail-card-container button{
+    background-color: #24a0ed;
+    color: #e8eeef;
+    border: none;
+    margin-top: 12px;
+    border-radius: 18px;
+    width: 180px;
+    padding: 10px; 
+}
+
+.modal {
+    font-size: 12px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 42px;
+    border-radius: 20px;
+    border: none;
+  }
+  .modal > .header {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+    font-size: 28px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+  }
+
+.payment-success-overall-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment-success-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    background-image: linear-gradient(to left, #fff, #f0f0dbab);
+    padding: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    border: none;
+}
+
+.payment-success-card-container h3{
+    text-align: center;
+}
+
+.payment-success-card-container button{
+    background-color: #24a0ed;
+    color: #e8eeef;
+    border: none;
+    margin-top: 12px;
+    border-radius: 18px;
+    width: 100px;
+    padding: 10px; 
+}
