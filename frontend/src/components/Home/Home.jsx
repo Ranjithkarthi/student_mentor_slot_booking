@@ -50,7 +50,7 @@ const Home = () => {
 
   const fetchMentors = () => {
     axios
-      .get("http://localhost:3000/mentors")
+      .get("https://stud-mentor-slot-booking-backend.onrender.com/mentors")
       .then((response) => {
         setMentors(response.data); // Update state with fetched data
       })
@@ -134,7 +134,7 @@ const Home = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/bookings",
+        "https://stud-mentor-slot-booking-backend.onrender.com/bookings",
         formData
       );
       console.log("Appointment booked successfully", response.data);
